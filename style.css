@@ -14,17 +14,57 @@
   justify-content: center;
 }
 
-.img{
-  padding-top: 100px;
-}
-#input{
-  width: 200px;
-  height: 100px;
-  background-color: green;
-}
-#increment-btn , #reset-btn{
-  width: 100px;
-  height: 100px;
-  background-color: red;
+.box{
+  position: relative;
 }
 
+.img{
+  padding-top: 100px;
+  z-index: -1;
+  rotate: -359deg;
+}
+#input{
+  font-family:'Press Start 2P', cursive;
+  padding: 15px;
+  font-size: 30px;
+  border-radius: 8px;
+  position: absolute;
+  width: 155px;
+  height: 70px;
+  text-align: end;
+  transform: translate(-148% , 280%);
+  background-color: green;
+  border: none;
+  outline: none;
+  
+}
+#increment-btn{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: none;
+  background-color: #C764E1;
+  transform: translate(-240% , 391%);
+}
+
+
+#reset-btn{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  background-color: #C764E1;
+  transform: translate(-770% , 990%);
+}
+
+#color-btn{
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  border: none;
+  background-color: #C764E1;
+  transform: translate(-350% , 950%);
+}
