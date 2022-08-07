@@ -68,3 +68,11 @@
   background-color: #C764E1;
   transform: translate(-350% , 950%);
 }
+
+
+
+@media(max-width:400px){
+  .container{
+    width: 380px;
+  }
+}
